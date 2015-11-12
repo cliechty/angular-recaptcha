@@ -106,6 +106,7 @@
                 function cleanup(){
                   // removes elements reCaptcha added.
                   angular.element($document[0].querySelectorAll('.pls-container')).parent().remove();
+                  angular.element($document[0].querySelectorAll('.g-recaptcha-bubble-arrow')).parent().remove();
                 }
             }
         };
